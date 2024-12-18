@@ -145,9 +145,9 @@ CodeGasm isn't just a setup. It's a lifestyle. A coding religion. A digital aphr
 
 ---
 
-# Bonus: Nuclear Options 💥
+# Bonus: Nuclear Options 💥 **PowerShell Commands**
 
-## Removing ALL Extensions (Scorched Earth Protocol)
+## Removing ALL Extensions (Scorched Earth Protocol) 
 
 ```powershell
 $extensions = code --list-extensions
