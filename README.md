@@ -125,26 +125,6 @@ Example HTML5 Snippet:
 - Check extension compatibility
 - Refer to individual extension documentation for specific issues
 
-# Remove All Installed Extensions in VS Code
-
-To remove all installed extensions in Visual Studio Code, you can use the following PowerShell script.
-
-## PowerShell Script
-
-```powershell
-# List all installed extensions
-$extensions = code --list-extensions
-
-# Loop through each extension and uninstall it
-foreach ($extension in $extensions) {
-    code --uninstall-extension $extension
-}
-```
-- How to Use
--- Open PowerShell as Administrator.
--- Run the script above.
--- All installed extensions will be removed from VS Code.
-
 ## 🤝 Contributing
 
 1. Fork the repository
@@ -164,3 +144,57 @@ CodeGasm transforms your VSCode into a powerhouse of productivity and pleasure. 
 ---
 
 **Happy Coding! 🚀👨‍💻**
+
+---
+
+# To Remove All Installed Extensions in VS Code
+
+To remove all installed extensions in Visual Studio Code, you can use the following PowerShell script.
+
+## PowerShell Script
+
+```powershell
+# List all installed extensions
+$extensions = code --list-extensions
+
+# Loop through each extension and uninstall it
+foreach ($extension in $extensions) {
+    code --uninstall-extension $extension
+}
+```
+- How to Use
+-- Open PowerShell as Administrator.
+-- Run the script above.
+-- All installed extensions will be removed from VS Code.
+
+---
+
+# Remove All settings.json in VS Code
+
+To remove all `settings.json` files in Visual Studio Code, you can use the following PowerShell script.
+
+## PowerShell Script
+
+```powershell
+# Define the path to the VS Code user settings
+$settingsPaths = @(
+    "$env:APPDATA\Code\User\settings.json",         # For Windows
+    "$env:HOME\AppData\Roaming\Code\User\settings.json",  # For Windows (Alternate)
+    "$env:HOME/.config/Code/User/settings.json"     # For Linux/macOS
+)
+
+# Loop through each path and remove the settings.json if it exists
+foreach ($settingsPath in $settingsPaths) {
+    if (Test-Path $settingsPath) {
+        Remove-Item $settingsPath -Force
+        Write-Host "Removed settings.json from: $settingsPath"
+    } else {
+        Write-Host "No settings.json found at: $settingsPath"
+    }
+}
+```
+- How to Use
+-- Open PowerShell as Administrator.
+-- Run the script above.
+-- The script will search for and remove the settings.json file from your user settings directory.
+
