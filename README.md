@@ -51,8 +51,6 @@ code --install-extension ionutvmi.path-autocomplete       # Path completion more
 - **Windows**: `%APPDATA%\Code\User\settings.json`
 - **Mac/Linux**: `~/.config/Code/User\settings.json`
 
-## 💡 Configuration Highlights (aka Your Coding Kama Sutra)
-
 ## 🛠 Features That Will Make You Wet... With Excitement!
 
 - **Orgasmic Editor Settings** 
@@ -74,22 +72,6 @@ code --install-extension ionutvmi.path-autocomplete       # Path completion more
 - **Theme**: Material Night Eighties (Retro Sexy)
 - **Icon Pack**: Symbols (Eye Candy)
 - **Error Visualization**: ErrorLens (Shows ALL your mistakes)
-
-## ⚠️ Troubleshooting (When Things Get Rough)
-
-- Update VSCode (New versions are like new relationships)
-- Check extension compatibility (No toxic extensions allowed)
-- RTFM (Read The Fantastic Manual)
-
-## 🤝 Contributing (Share the Love)
-
-1. Fork the repo (Like stealing a kiss)
-2. Create feature branch (Your personal playground)
-3. Commit changes (Leave your mark)
-4. Push to branch (Go all in)
-5. Pull Request (Propose marriage to the project)
-6. 
----
 
 # Bonus: Nuclear Options 💥 **PowerShell Commands**
 
