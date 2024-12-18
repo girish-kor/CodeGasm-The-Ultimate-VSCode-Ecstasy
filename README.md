@@ -125,6 +125,26 @@ Example HTML5 Snippet:
 - Check extension compatibility
 - Refer to individual extension documentation for specific issues
 
+# Remove All Installed Extensions in VS Code
+
+To remove all installed extensions in Visual Studio Code, you can use the following PowerShell script.
+
+## PowerShell Script
+
+```powershell
+# List all installed extensions
+$extensions = code --list-extensions
+
+# Loop through each extension and uninstall it
+foreach ($extension in $extensions) {
+    code --uninstall-extension $extension
+}
+```
+- How to Use
+-- Open PowerShell as Administrator.
+-- Run the script above.
+-- All installed extensions will be removed from VS Code.
+
 ## 🤝 Contributing
 
 1. Fork the repository
