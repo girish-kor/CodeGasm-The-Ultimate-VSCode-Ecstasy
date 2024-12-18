@@ -1,5 +1,5 @@
 # CodeGasm: The Ultimate VSCode Ecstasy 🚀💻
-" Try try but dont ask why "
+**Slogan**: _"Try try but don't ask why"_
 
 ![Coding Nirvana](https://raw.githubusercontent.com/girish-kor/CodeGasm-The-Ultimate-VSCode-Ecstasy/refs/heads/main/assets/CodeGasm.png)
 
