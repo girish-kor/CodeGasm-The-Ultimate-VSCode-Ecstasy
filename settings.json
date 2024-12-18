@@ -1,0 +1,215 @@
+{
+  // General Code and Editor Settings
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "editor.formatOnType": true,
+  "editor.insertSpaces": true,
+  "editor.tabSize": 2,
+  "editor.detectIndentation": false,
+  "editor.wordWrap": "on",
+  "editor.lineNumbers": "on",
+  "editor.minimap.enabled": true,
+  "editor.renderWhitespace": "all",
+  "editor.renderLineHighlight": "all",
+  "editor.mouseWheelZoom": true,
+  "editor.smoothScrolling": true,
+  "editor.cursorBlinking": "smooth",
+  "editor.cursorStyle": "block",
+  "editor.cursorWidth": 2,
+  "editor.autoClosingBrackets": "always",
+  "editor.autoClosingQuotes": "always",
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 1000,
+  "files.insertFinalNewline": true,
+  "files.trimTrailingWhitespace": true,
+  "files.eol": "\n",
+  "files.encoding": "utf8",
+  "files.associations": {
+    "*.js": "javascript",
+    "*.jsx": "javascriptreact",
+    "*.ts": "typescript",
+    "*.tsx": "typescriptreact",
+    "*.html": "html",
+    "*.css": "css"
+  },
+  "workbench.colorTheme": "Material Night Eighties",
+  "workbench.iconTheme": "symbols",
+  "workbench.sideBar.location": "right",
+  "workbench.editor.showTabs": "multiple",
+  "workbench.editor.tabSizing": "shrink",
+  "workbench.statusBar.visible": true,
+  "window.titleBarStyle": "custom",
+  "window.zoomLevel": 0,
+
+  // Prettier Overrides for specific file types
+  "[javascript]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[markdown]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "vscode_custom_css.imports": [
+    "file:///c:/Users/giris/.vscode/extensions/brandonkirbyson.vscode-animations-2.0.4/dist/updateHandler.js"
+  ],
+  "editor.hideCursorInOverviewRuler": true,
+  "animations.CursorAnimation": true,
+},
+{
+   // Tailwind CSS Settings
+  "bradlc.vscode-tailwindcss": {
+    "tailwindCSS.includeLanguages": {
+      "html": "html",
+      "javascript": "javascript",
+      "javascriptreact": "javascriptreact",
+      "typescript": "typescript",
+      "typescriptreact": "typescriptreact",
+      "vue": "vue",
+      "jsx": "jsx",
+      "tsx": "tsx",
+      "blade": "blade"
+    },
+    "tailwindCSS.emmetCompletions": true,
+    "tailwindCSS.format.enable": true,
+    "tailwindCSS.validate": true
+  },
+
+  // ESLint Settings
+  "dbaeumer.vscode-eslint": {
+    "eslint.enable": true,
+    "eslint.validate": [
+      "javascript",
+      "javascriptreact",
+      "typescript",
+      "typescriptreact",
+      "vue",
+      "html"
+    ],
+    "eslint.autoFixOnSave": true,
+    "eslint.alwaysShowStatus": true,
+    "eslint.format.enable": true,
+    "eslint.run": "onSave",
+    "eslint.packageManager": "npm",
+    "eslint.workingDirectories": [
+      {
+        "mode": "auto"
+      }
+    ]
+  },
+
+  // Prettier Settings
+  "esbenp.prettier-vscode": {
+    "prettier.singleQuote": true,
+    "prettier.trailingComma": "all",
+    "prettier.printWidth": 100,
+    "prettier.arrowParens": "always",
+    "prettier.jsxSingleQuote": true,
+    "prettier.useTabs": false,
+    "prettier.tabWidth": 2,
+    "prettier.bracketSpacing": true,
+    "prettier.semi": true,
+    "prettier.endOfLine": "lf",
+    "prettier.htmlWhitespaceSensitivity": "ignore",
+    "prettier.plugins": ["prettier-plugin-tailwindcss"],
+    "prettier.yamlSortKeys": true,
+    "prettier.cssBracketSameLine": true,
+    "prettier.vueIndentScriptAndStyle": true,
+    "prettier.markdownWhitespaceSensitivity": "strict",
+    "prettier.wrapAttributes": "auto",
+    "prettier.requireConfig": true
+  },
+
+  // Auto Close Tag Settings
+  "formulahendry.auto-close-tag": {
+    "auto-close-tag.active": true,
+    "auto-close-tag.showErrorMessage": true
+  },
+
+  // Auto Rename Tag Settings
+  "formulahendry.auto-rename-tag": {
+    "auto-rename-tag.active": true,
+    "auto-rename-tag.enableMultiple": true
+  },
+
+  // Code Runner Settings
+  "formulahendry.code-runner": {
+    "code-runner.runInTerminal": true,
+    "code-runner.executorMap": {
+      "javascript": "node",
+      "typescript": "ts-node",
+      "python": "python3",
+      "html": "open -a 'Google Chrome'",
+      "css": "open -a 'Google Chrome'",
+      "json": "echo ''"
+    },
+    "code-runner.saveFileBeforeRun": true,
+    "code-runner.clearPreviousOutput": true
+  },
+
+  // Path Autocomplete Settings
+  "ionutvmi.path-autocomplete": {
+    "path-autocomplete.autoSlashAfterDirectory": true,
+    "path-autocomplete.triggerOutsideStrings": true,
+    "path-autocomplete.enableAutoImport": true,
+    "path-autocomplete.showHiddenFiles": false
+  },
+
+  // Angular 2 Settings
+  "johnpapa.angular2": {
+    "angular2.enableAutomaticComponentDiscover": true,
+    "angular2.formatOnSave": true,
+    "angular2.inlineTemplate": true,
+    "angular2.inlineStyle": true
+  },
+
+  // Symbols Settings
+  "miguelsolorio.symbols": {
+    "symbols.preview": true,
+    "symbols.lineHeight": 1.6,
+    "symbols.maxFileSize": 2000000
+  },
+
+  // MaterialKit Theme Settings
+  "ms-vscode.theme-materialkit": {
+    "materialKit.customColors": true,
+    "materialKit.showStatusBar": true
+  },
+
+  // Live Server Settings
+  "ritwickdey.liveserver": {
+    "liveServer.settings.donotShowInfoMsg": true,
+    "liveServer.settings.wait": 500,
+    "liveServer.settings.ignoreFiles": [
+      "**/node_modules/**",
+      "**/.git/**",
+      "**/dist/**"
+    ]
+  },
+
+  // HTML Snippets Settingsd
+  "wscats.html-snippets": {
+    "html-snippets.enable": true,
+    "html-snippets.customSnippets": {
+      "html5": {
+        "html": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"ie=edge\">\n    <title>${1:Document}</title>\n</head>\n<body>\n    ${2}\n</body>\n</html>"
+      }
+    }
+  },
+}
