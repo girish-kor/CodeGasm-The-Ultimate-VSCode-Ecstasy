@@ -53,56 +53,27 @@ code --install-extension ionutvmi.path-autocomplete       # Path completion more
 
 ## 💡 Configuration Highlights (aka Your Coding Kama Sutra)
 
-### 1. Prettier Formatting
-- Formats on save (Because manual is for peasants)
-- Multiple file type support
-- Consistency that would make Marie Kondo proud
+## 🛠 Features That Will Make You Wet... With Excitement!
 
-### 2. Tailwind CSS Integration
-- Auto-completion that predicts better than a psychic
-- Class validation stricter than your high school principal
-- Emmet support faster than your reflexes
+- **Orgasmic Editor Settings** 
+- **Prettier Than Your Ex's Instagram** 
+- **Tailwind CSS That Slaps Harder Than Reality** 
+- **Animations Smoother Than a Butter Massage** 
+- **Code Runner That Sprints Faster Than Your Career** 
+- **Frameworks Supported Like a Wonder Bra** 
+- **Live Server That Never Ghosts You** 
 
-### 3. ESLint Configuration
-- Catches errors like a jealous girlfriend
-- Enforces coding standards harder than your gym trainer
+## 🔧 Prerequisites (aka Coding Foreplay)
 
-### 4. Code Runner
-- Executes code faster than your last relationship ended
-- Supports more languages than a UN translator
-- Terminal execution that feels like teleportation
-
-### 5. Live Server
-- Browser preview instant-er than instant noodles
-- Auto-reload faster than Twitter cancels celebrities
+- Visual Studio Code (v1.50+ - No Virgins Allowed!)
+- Git (Because commitment is sexy)
+- NodeJS (Your digital testosterone)
 
 ## 🎨 Theming (Dress Your Code)
 
 - **Theme**: Material Night Eighties (Retro Sexy)
 - **Icon Pack**: Symbols (Eye Candy)
 - **Error Visualization**: ErrorLens (Shows ALL your mistakes)
-
-## 📝 Bonus: Spicy HTML Snippet
-
-```json
-"html5": {
-  "prefix": "html5",
-  "body": [
-    "<!DOCTYPE html>",
-    "<html lang=\"en\"> <!-- Speaking universal language of AWESOME -->",
-    "<head>",
-    "    <meta charset=\"UTF-8\"> <!-- UTF-8: Because we're inclusive 🌈 -->",
-    "    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">",
-    "    <title>${1:Document of Pure Sexiness}</title>",
-    "</head>",
-    "<body>",
-    "    ${2}  <!-- Your magic happens here -->",
-    "</body>",
-    "</html>"
-  ],
-  "description": "HTML5 base template (Comes with extra swagger)"
-}
-```
 
 ## ⚠️ Troubleshooting (When Things Get Rough)
 
