@@ -162,10 +162,10 @@ foreach ($extension in $extensions) {
     code --uninstall-extension $extension
 }
 ```
-- How to Use
--- Open PowerShell as Administrator.
--- Run the script above.
--- All installed extensions will be removed from VS Code.
+- **How to Use**
+--> Open PowerShell as Administrator.
+--> Run the script above.
+--> All installed extensions will be removed from VS Code.
 
 ---
 
@@ -193,8 +193,8 @@ foreach ($settingsPath in $settingsPaths) {
     }
 }
 ```
-- How to Use
--- Open PowerShell as Administrator.
--- Run the script above.
--- The script will search for and remove the settings.json file from your user settings directory.
+- **How to Use**
+--> Open PowerShell as Administrator.
+--> Run the script above.
+--> The script will search for and remove the settings.json file from your user settings directory.
 
