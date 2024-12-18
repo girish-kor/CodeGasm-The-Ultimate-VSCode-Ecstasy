@@ -1,152 +1,113 @@
 # CodeGasm: The Ultimate VSCode Ecstasy 🚀
 
-Welcome to **CodeGasm** – the ultimate VSCode configuration that will revolutionize your coding experience. This repository contains a meticulously curated VSCode setup designed to supercharge your productivity and coding pleasure.
+Welcome to **CodeGasm** – the ultimate VSCode configuration that will revolutionize your coding experience.
 
-## 📸 Preview Your Coding Nirvana
+## 🌟 Quick Start
 
-![CodeGasm VSCode Setup](https://placeholder.com/800x400)
+### Prerequisites
+- Visual Studio Code (v1.50+)
+- Git
+- Node.js
 
-## 🛠 Features That Will Make You Smile
+### Installation
 
-- **Hyper-Optimized Editor Settings**
-  - Intelligent auto-formatting
-  - Smooth scrolling
-  - Custom cursor behaviors
-  - Performance-tuned configurations
-
-- **Prettier Integration**
-  - Automatic code formatting on save
-  - Support for multiple file types
-  - Consistent code styling
-
-- **Tailwind CSS Powerhouse**
-  - Advanced auto-completion
-  - Intelligent validation
-  - Seamless class suggestions
-
-- **Developer Experience Enhancements**
-  - Cursor animations
-  - Live code running
-  - Instant browser previews
-  - Angular 2+ support
-
-## 🚀 Quick Installation
-
-### 1. Clone the Repository
-
+1. Clone the repository
 ```bash
 git clone https://github.com/yourusername/CodeGasm.git
 cd CodeGasm
 ```
 
-### 2. VSCode Settings Configuration
-
-- **Windows**: 
-  ```
-  %APPDATA%\Code\User\settings.json
-  ```
-
-- **Mac/Linux**: 
-  ```
-  ~/.config/Code/User/settings.json
-  ```
-
-### 3. Extension Installation Script
-
+2. Install Required Extensions
 ```powershell
-# Install Essential Extensions
-
-# Styling & Customization
-code --install-extension be5invis.vscode-custom-css
-code --install-extension ms-vscode.theme-materialkit
-code --install-extension miguelsolorio.symbols
-
-# Web Development
-code --install-extension bradlc.vscode-tailwindcss
-code --install-extension ritwickdey.liveserver
-code --install-extension wscats.html-snippets
-
-# Code Quality
-code --install-extension dbaeumer.vscode-eslint
-code --install-extension esbenp.prettier-vscode
-code --install-extension usernamehw.errorlens
-
-# Productivity
-code --install-extension formulahendry.auto-close-tag
-code --install-extension formulahendry.auto-rename-tag
-code --install-extension formulahendry.code-runner
-code --install-extension ionutvmi.path-autocomplete
-code --install-extension brandonkirbyson.vscode-animations
-
-# Framework Support
-code --install-extension johnpapa.angular2
+code --install-extension be5invis.vscode-custom-css \
+     --install-extension bradlc.vscode-tailwindcss \
+     --install-extension brandonkirbyson.vscode-animations \
+     --install-extension dbaeumer.vscode-eslint \
+     --install-extension esbenp.prettier-vscode \
+     --install-extension formulahendry.auto-close-tag \
+     --install-extension formulahendry.auto-rename-tag \
+     --install-extension formulahendry.code-runner \
+     --install-extension ionutvmi.path-autocomplete \
+     --install-extension johnpapa.angular2 \
+     --install-extension miguelsolorio.symbols \
+     --install-extension ms-vscode.theme-materialkit \
+     --install-extension ritwickdey.liveserver \
+     --install-extension usernamehw.errorlens \
+     --install-extension wscats.html-snippets
 ```
 
-## 🌟 Key Configuration Highlights
+## 🔧 Configuration Files
 
-### 1. Prettier Formatting
-- Auto-format on save
-- Supports JavaScript, TypeScript, HTML, CSS, JSON, Markdown
-- Consistent code style across projects
+### 1. settings.json
+Replace your VSCode `settings.json` with the configuration in this repository:
 
-### 2. Tailwind CSS Integration
-- Intelligent auto-completion
-- Real-time class validation
-- Emmet support for rapid development
+- Windows Path: `%APPDATA%\Code\User\settings.json`
+- Mac/Linux Path: `~/.config/Code/User/settings.json`
 
-### 3. ESLint Configuration
-- Automatic code quality checks
-- Syntax error prevention
-- Consistent coding standards
+### 2. keybindings.json
+Custom keyboard shortcuts are included in `keybindings.json`
 
-### 4. Code Runner
-- Execute code snippets instantly
-- Supports multiple languages
-- Integrated terminal execution
+### 3. snippets
+Custom code snippets for various languages located in `snippets/`
 
-## 📦 Included Custom Snippets
+## 🚀 Key Features
 
-### HTML5 Boilerplate Snippet
+### Formatting & Linting
+- Prettier auto-formatting on save
+- ESLint for code quality
+- Auto-tag closing and renaming
+
+### Development Enhancements
+- Tailwind CSS IntelliSense
+- Live Server for instant previews
+- Code Runner for multi-language execution
+- Angular 2 support
+- Path autocomplete
+
+### Visual Improvements
+- MaterialKit theme
+- Cursor animations
+- Enhanced error display with ErrorLens
+- Custom CSS modifications
+
+## 📦 Included Snippets
+
+### HTML5 Boilerplate
 ```json
 "html5": {
-    "prefix": "html5",
-    "body": [
-        "<!DOCTYPE html>",
-        "<html lang=\"en\">",
-        "<head>",
-        "    <meta charset=\"UTF-8\">",
-        "    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">",
-        "    <title>${1:Document}</title>",
-        "</head>",
-        "<body>",
-        "    ${2:<!-- Content -->}",
-        "</body>",
-        "</html>"
-    ],
-    "description": "HTML5 Boilerplate Template"
+  "prefix": "html5",
+  "body": [
+    "<!DOCTYPE html>",
+    "<html lang=\"en\">",
+    "<head>",
+    "    <meta charset=\"UTF-8\">",
+    "    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">",
+    "    <title>${1:Document}</title>",
+    "</head>",
+    "<body>",
+    "    ${2}",
+    "</body>",
+    "</html>"
+  ]
 }
 ```
 
-## ⚠️ System Requirements
+## 🛠 Customization
 
-- VSCode 1.50+
-- Node.js 14+ recommended
-- Git installed
+Feel free to fork and modify the configuration to suit your personal coding style. Create pull requests to share your improvements!
 
 ## 🔒 License
 
-MIT License - Free to use, modify, and share.
+MIT License - Fully open-source and free to use.
 
-## 🙌 Contributing
+## 🙌 Contributions
 
-1. Fork the repository
-2. Create your feature branch
-3. Commit your changes
-4. Push to the branch
-5. Create a Pull Request
+Contributions are welcome! Please read the contribution guidelines before submitting a pull request.
 
 ## 📞 Support
 
-Encounter issues? [Open an Issue](https://github.com/yourusername/CodeGasm/issues)
+If you encounter any issues, please file an issue on the GitHub repository.
+
+---
 
 **Happy Coding! 💻✨**
