@@ -1,78 +1,104 @@
-# CodeGasm: The Ultimate VSCode Ecstasy 🚀
+# CodeGasm: The Ultimate VSCode Ecstasy
 
-Welcome to **CodeGasm** – the ultimate VSCode configuration that will revolutionize your coding experience.
+Welcome to **CodeGasm** – the ultimate VSCode configuration that will take your coding experience to the next level. This repository contains my curated VSCode settings, extensions, and customizations designed to make your coding as smooth and pleasurable as possible.
 
-## 🌟 Quick Start
+## 🚀 Preview Your Coding Pleasure
 
-### Prerequisites
+![CodeGasm VSCode Setup](https://via.placeholder.com/800x400.png)
+*Placeholder for VSCode screen recording*
+
+## 🛠 Features
+
+- **Optimized Editor Settings**
+- **Prettier Integration**
+- **Tailwind CSS Support**
+- **Smooth Animations**
+- **Integrated Code Runner**
+- **Framework Support**
+- **Live Server Functionality**
+
+## 🔧 Prerequisites
+
 - Visual Studio Code (v1.50+)
 - Git
-- Node.js
+- NodeJS
 
-### Installation
+## 📦 Installation
 
-1. Clone the repository
+### 1. Clone the Repository
+
 ```bash
 git clone https://github.com/yourusername/CodeGasm.git
 cd CodeGasm
 ```
 
-2. Install Required Extensions
+### 2. Install VSCode Extensions
+
 ```powershell
-code --install-extension be5invis.vscode-custom-css \
-     --install-extension bradlc.vscode-tailwindcss \
-     --install-extension brandonkirbyson.vscode-animations \
-     --install-extension dbaeumer.vscode-eslint \
-     --install-extension esbenp.prettier-vscode \
-     --install-extension formulahendry.auto-close-tag \
-     --install-extension formulahendry.auto-rename-tag \
-     --install-extension formulahendry.code-runner \
-     --install-extension ionutvmi.path-autocomplete \
-     --install-extension johnpapa.angular2 \
-     --install-extension miguelsolorio.symbols \
-     --install-extension ms-vscode.theme-materialkit \
-     --install-extension ritwickdey.liveserver \
-     --install-extension usernamehw.errorlens \
-     --install-extension wscats.html-snippets
+# Core Extensions
+code --install-extension esbenp.prettier-vscode
+code --install-extension dbaeumer.vscode-eslint
+code --install-extension bradlc.vscode-tailwindcss
+code --install-extension formulahendry.code-runner
+code --install-extension ritwickdey.liveserver
+code --install-extension usernamehw.errorlens
+code --install-extension miguelsolorio.symbols
+code --install-extension brandonkirbyson.vscode-animations
+
+# Framework Extensions
+code --install-extension johnpapa.angular2
+code --install-extension wscats.html-snippets
+
+# Productivity Extensions
+code --install-extension formulahendry.auto-close-tag
+code --install-extension formulahendry.auto-rename-tag
+code --install-extension ionutvmi.path-autocomplete
 ```
 
-## 🔧 Configuration Files
+### 3. Apply VSCode Settings
 
-### 1. settings.json
-Replace your VSCode `settings.json` with the configuration in this repository:
+- **Windows**: `%APPDATA%\Code\User\settings.json`
+- **Mac/Linux**: `~/.config/Code/User/settings.json`
 
-- Windows Path: `%APPDATA%\Code\User\settings.json`
-- Mac/Linux Path: `~/.config/Code/User/settings.json`
+Copy the contents of `settings.json` from this repository into your VSCode settings.
 
-### 2. keybindings.json
-Custom keyboard shortcuts are included in `keybindings.json`
+## 💡 Key Configuration Highlights
 
-### 3. snippets
-Custom code snippets for various languages located in `snippets/`
+### 1. Prettier Formatting
+- Auto-format on save
+- Supports multiple file types
+- Consistent code styling
 
-## 🚀 Key Features
+### 2. Tailwind CSS Integration
+- Intelligent auto-completion
+- Real-time class validation
+- Emmet support
 
-### Formatting & Linting
-- Prettier auto-formatting on save
-- ESLint for code quality
-- Auto-tag closing and renaming
+### 3. ESLint Configuration
+- Automatic linting
+- Catch potential errors
+- Enforce coding standards
 
-### Development Enhancements
-- Tailwind CSS IntelliSense
-- Live Server for instant previews
-- Code Runner for multi-language execution
-- Angular 2 support
-- Path autocomplete
+### 4. Code Runner
+- Execute code snippets instantly
+- Support for multiple languages
+- Integrated terminal execution
 
-### Visual Improvements
-- MaterialKit theme
-- Cursor animations
-- Enhanced error display with ErrorLens
-- Custom CSS modifications
+### 5. Live Server
+- Instant browser preview
+- Auto-reload on changes
+- Works with HTML/CSS/JS
 
-## 📦 Included Snippets
+## 🎨 Theming
 
-### HTML5 Boilerplate
+- **Theme**: Material Night Eighties
+- **Icon Pack**: Symbols
+- **Error Visualization**: ErrorLens
+
+## 📝 Custom Snippets
+
+Example HTML5 Snippet:
+
 ```json
 "html5": {
   "prefix": "html5",
@@ -88,26 +114,33 @@ Custom code snippets for various languages located in `snippets/`
     "    ${2}",
     "</body>",
     "</html>"
-  ]
+  ],
+  "description": "HTML5 base template"
 }
 ```
 
-## 🛠 Customization
+## ⚠️ Troubleshooting
 
-Feel free to fork and modify the configuration to suit your personal coding style. Create pull requests to share your improvements!
+- Ensure VSCode is updated
+- Check extension compatibility
+- Refer to individual extension documentation for specific issues
 
-## 🔒 License
+## 🤝 Contributing
 
-MIT License - Fully open-source and free to use.
+1. Fork the repository
+2. Create your feature branch
+3. Commit your changes
+4. Push to the branch
+5. Create a Pull Request
 
-## 🙌 Contributions
+## 📄 License
 
-Contributions are welcome! Please read the contribution guidelines before submitting a pull request.
+MIT License - Completely free to use and modify
 
-## 📞 Support
+## 🌟 Final Thoughts
 
-If you encounter any issues, please file an issue on the GitHub repository.
+CodeGasm transforms your VSCode into a powerhouse of productivity and pleasure. Enjoy your ultimate coding experience!
 
 ---
 
-**Happy Coding! 💻✨**
+**Happy Coding! 🚀👨‍💻**
