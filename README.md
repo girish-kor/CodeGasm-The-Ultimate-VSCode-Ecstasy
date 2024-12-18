@@ -47,7 +47,7 @@ Install the following extensions to fully enjoy the CodeGasm experience:
 
 - PowerShell Code for Extension Installation
 
-```bash
+```powershell
 # Install essential extensions for the ultimate VSCode experience
 
 # Custom CSS for VSCode
