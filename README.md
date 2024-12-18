@@ -88,17 +88,7 @@ code --install-extension ionutvmi.path-autocomplete       # Path completion more
 3. Commit changes (Leave your mark)
 4. Push to branch (Go all in)
 5. Pull Request (Propose marriage to the project)
-
-## 📄 License
-
-MIT License - Free as your coding spirit! Do whatever the f*ck you want! 🤘
-
-## 🌟 Final Multiple Orgasms of Wisdom
-
-CodeGasm isn't just a setup. It's a lifestyle. A coding religion. A digital aphrodisiac.
-
-**Cum... I mean, Code Hard! 🚀💦👨‍💻**
-
+6. 
 ---
 
 # Bonus: Nuclear Options 💥 **PowerShell Commands**
@@ -128,7 +118,15 @@ foreach ($settingsPath in $settingsPaths) {
     }
 }
 ```
+## 📄 License
 
+MIT License - Free as your coding spirit! Do whatever the f*ck you want! 🤘
+
+## 🌟 Final Multiple Orgasms of Wisdom
+
+CodeGasm isn't just a setup. It's a lifestyle. A coding religion. A digital aphrodisiac.
+
+**Cum... I mean, Code Hard! 🚀💦👨‍💻**
 ---
 
 **Coding is not a job. It's a LIFESTYLE! 🤯🔥**
