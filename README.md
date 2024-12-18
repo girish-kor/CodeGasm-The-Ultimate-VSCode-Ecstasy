@@ -1,169 +1,164 @@
-# CodeGasm: The Ultimate VSCode Ecstasy 🚀🔥
+# CodeGasm: The Ultimate VSCode Ecstasy 🚀💻
 
-Welcome to **CodeGasm** – the VSCode configuration that'll make your coding sessions feel like a digital romance novel. Prepare for an IDE so smooth, it'll make other text editors blush! 😏💻
+![Coding Nirvana](https://raw.githubusercontent.com/girish-kor/CodeGasm-The-Ultimate-VSCode-Ecstasy/refs/heads/main/assets/CodeGasm.png)
 
-## 🚀 Preview Your Coding Pleasure
+> 🔥 Warning: This configuration may cause spontaneous coding orgasms and uncontrollable productivity! 😱🤯
 
-![CodeGasm VSCode Setup](https://raw.githubusercontent.com/girish-kor/CodeGasm-The-Ultimate-VSCode-Ecstasy/refs/heads/main/assets/CodeGasm.png)
-*Warning: May cause spontaneous coding euphoria* 🤯
+## 🚀 Why This Exists (Besides Pure Coding Pleasure)
 
-## 🛠 Features That'll Make Your Keyboard Tingle
+Welcome to the most mind-blowing VSCode setup that will:
+- Make your keyboard smoke 🔥
+- Turn debugging into a party 🎉
+- Make other developers weep with jealousy 😭
+- Potentially get you fired for being too awesome 💥
 
-- **Optimized Editor Settings** (Because bland is banned) 🎨
-- **Prettier Integration** (Goodbye, code mess!)
-- **Tailwind CSS Support** (CSS on steroids) 💪
-- **Smooth Animations** (Code like you're in a Matrix movie) 🕶️
-- **Integrated Code Runner** (Instant gratification) ⚡
-- **Framework Support** (We love ALL your frameworks) ❤️
-- **Live Server Functionality** (Refresh? Never heard of her) 🔄
+## 🛠 Features That Will Make You Wet... With Excitement!
 
-## 🔧 Prerequisites (AKA Coding Foreplay)
+- **Orgasmic Editor Settings** 
+- **Prettier Than Your Ex's Instagram** 
+- **Tailwind CSS That Slaps Harder Than Reality** 
+- **Animations Smoother Than a Butter Massage** 
+- **Code Runner That Sprints Faster Than Your Career** 
+- **Frameworks Supported Like a Wonder Bra** 
+- **Live Server That Never Ghosts You** 
 
-- Visual Studio Code (v1.50+) - Your digital playground
-- Git - Because commitment issues are for relationships, not code
-- NodeJS - The runtime that makes everything possible
+## 🔧 Prerequisites (aka Coding Foreplay)
 
-## 📦 Installation (Let's Get Intimate)
+- Visual Studio Code (v1.50+ - No Virgins Allowed!)
+- Git (Because commitment is sexy)
+- NodeJS (Your digital testosterone)
 
-### 1. Clone the Repository (First Base)
+## 📦 Installation Ritual
+
+### 1. Clone Like You Mean It
 
 ```bash
 git clone https://github.com/yourusername/CodeGasm.git
 cd CodeGasm
-# *winks* Let the magic begin
+# Whisper sweet nothings to your terminal
 ```
 
-### 2. Install VSCode Extensions (Protection Optional, but Recommended)
+### 2. Install Extensions (Protection Not Included)
 
 ```powershell
-# Core Extensions (Because we're not savages)
-code --install-extension esbenp.prettier-vscode       # Prettify me, baby
-code --install-extension dbaeumer.vscode-eslint      # Lint me harder
-code --install-extension bradlc.vscode-tailwindcss   # Tailwind me senseless
-code --install-extension formulahendry.code-runner   # Run me quick
-code --install-extension ritwickdey.liveserver       # Live and unfiltered
-code --install-extension usernamehw.errorlens        # Errors? We expose them all
-code --install-extension miguelsolorio.symbols       # Symbolic relationship
-code --install-extension brandonkirbyson.vscode-animations  # Smooth moves only
+# Core Extensions (Your Coding Protection Kit)
+code --install-extension esbenp.prettier-vscode            # Makes your code beautiful
+code --install-extension dbaeumer.vscode-eslint           # Catches your coding STDs
+code --install-extension bradlc.vscode-tailwindcss        # Tailwind on steroids
+code --install-extension formulahendry.code-runner        # Code execution speedrun
+code --install-extension ritwickdey.liveserver             # Instant gratification server
+code --install-extension usernamehw.errorlens             # Error visibility like HD porn
+code --install-extension miguelsolorio.symbols            # Icons that seduce your eyes
+code --install-extension brandonkirbyson.vscode-animations # Coding foreplay animations
 
-# Framework Extensions (We don't discriminate) 
-code --install-extension johnpapa.angular2           # Angular? More like An-gular
-code --install-extension wscats.html-snippets        # HTML snippets = code foreplay
+# Framework Extensions (Because Diversity Matters)
+code --install-extension johnpapa.angular2                # Angular's wet dream
+code --install-extension wscats.html-snippets             # HTML faster than your ex moves on
 
-# Productivity Extensions (Work smarter, not harder)
-code --install-extension formulahendry.auto-close-tag    # Closure is important
-code --install-extension formulahendry.auto-rename-tag   # Identity crisis? Solved!
-code --install-extension ionutvmi.path-autocomplete      # Guide me, senpai
+# Productivity Extensions (Performance Enhancers)
+code --install-extension formulahendry.auto-close-tag     # Closes things faster than you
+code --install-extension formulahendry.auto-rename-tag    # Rename like a boss
+code --install-extension ionutvmi.path-autocomplete       # Path completion more reliable than Tinder
 ```
 
-### 3. Apply VSCode Settings (The Intimate Moment)
+### 3. Apply Settings (Undress Your VSCode)
 
-- **Windows**: `%APPDATA%\Code\User\settings.json` (Your secret diary)
-- **Mac/Linux**: `~/.config/Code/User\settings.json` (No judgement here)
+- **Windows**: `%APPDATA%\Code\User\settings.json`
+- **Mac/Linux**: `~/.config/Code/User\settings.json`
 
-Copy the contents of `settings.json` - it's like a love letter to your IDE.
-
-## 💡 Key Configuration Highlights (The Foreplay)
+## 💡 Configuration Highlights (aka Your Coding Kama Sutra)
 
 ### 1. Prettier Formatting
-- Auto-format on save (Because messy is never sexy)
-- Supports multiple file types (We're not monogamous)
-- Consistent code styling (OCD? We got you) 💅
+- Formats on save (Because manual is for peasants)
+- Multiple file type support
+- Consistency that would make Marie Kondo proud
 
 ### 2. Tailwind CSS Integration
-- Intelligent auto-completion (Mind reading, basically)
-- Real-time class validation (No fake classes here)
-- Emmet support (Speed dating for developers)
+- Auto-completion that predicts better than a psychic
+- Class validation stricter than your high school principal
+- Emmet support faster than your reflexes
 
 ### 3. ESLint Configuration
-- Automatic linting (Cleaning up your mess)
-- Catch potential errors (We're watching you)
-- Enforce coding standards (Discipline is hot)
+- Catches errors like a jealous girlfriend
+- Enforces coding standards harder than your gym trainer
 
 ### 4. Code Runner
-- Execute code snippets instantly (Quickest draw in the West)
-- Support for multiple languages (Polyglot? Oh yeah!)
-- Integrated terminal execution (No switching required)
+- Executes code faster than your last relationship ended
+- Supports more languages than a UN translator
+- Terminal execution that feels like teleportation
 
 ### 5. Live Server
-- Instant browser preview (Impatience is a virtue)
-- Auto-reload on changes (Commitment issues? Not here)
-- Works with HTML/CSS/JS (The holy trinity)
+- Browser preview instant-er than instant noodles
+- Auto-reload faster than Twitter cancels celebrities
 
-## 🎨 Theming (Dress to Impress)
+## 🎨 Theming (Dress Your Code)
 
-- **Theme**: Material Night Eighties (Retro meets modern)
-- **Icon Pack**: Symbols (Because looks matter)
-- **Error Visualization**: ErrorLens (Transparency is key)
+- **Theme**: Material Night Eighties (Retro Sexy)
+- **Icon Pack**: Symbols (Eye Candy)
+- **Error Visualization**: ErrorLens (Shows ALL your mistakes)
 
-## 📝 Custom Snippets (Quick and Dirty)
-
-Example HTML5 Snippet (A quickie template):
+## 📝 Bonus: Spicy HTML Snippet
 
 ```json
 "html5": {
   "prefix": "html5",
   "body": [
     "<!DOCTYPE html>",
-    "<html lang=\"en\"> <!-- Internationalization, darling 😘 -->",
+    "<html lang=\"en\"> <!-- Speaking universal language of AWESOME -->",
     "<head>",
-    "    <meta charset=\"UTF-8\">",
+    "    <meta charset=\"UTF-8\"> <!-- UTF-8: Because we're inclusive 🌈 -->",
     "    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">",
-    "    <title>${1:Document of Desires}</title>",
+    "    <title>${1:Document of Pure Sexiness}</title>",
     "</head>",
     "<body>",
-    "    ${2:<!-- Insert your wildest dreams here -->}",
+    "    ${2}  <!-- Your magic happens here -->",
     "</body>",
     "</html>"
   ],
-  "description": "HTML5: Your Gateway to Digital Seduction"
+  "description": "HTML5 base template (Comes with extra swagger)"
 }
 ```
 
-## ⚠️ Troubleshooting (When Things Get Complicated)
+## ⚠️ Troubleshooting (When Things Get Rough)
 
-- Ensure VSCode is updated (Stay fresh)
-- Check extension compatibility (No toxic relationships)
-- Refer to individual extension docs (Communication is key)
+- Update VSCode (New versions are like new relationships)
+- Check extension compatibility (No toxic extensions allowed)
+- RTFM (Read The Fantastic Manual)
 
-## 🤝 Contributing (Let's Collaborate)
+## 🤝 Contributing (Share the Love)
 
-1. Fork the repository (Take what you want)
-2. Create your feature branch (Make it your own)
-3. Commit your changes (Seal the deal)
-4. Push to the branch (No holding back)
-5. Create a Pull Request (The ultimate proposal)
+1. Fork the repo (Like stealing a kiss)
+2. Create feature branch (Your personal playground)
+3. Commit changes (Leave your mark)
+4. Push to branch (Go all in)
+5. Pull Request (Propose marriage to the project)
 
 ## 📄 License
 
-MIT License - Free as your coding spirit 🕊️
+MIT License - Free as your coding spirit! Do whatever the f*ck you want! 🤘
 
-## 🌟 Final Thoughts (Pillow Talk)
+## 🌟 Final Multiple Orgasms of Wisdom
 
-CodeGasm transforms your VSCode into a productivity powerhouse that'll make other developers swoon. Code hard, play harder! 💥👨‍💻
+CodeGasm isn't just a setup. It's a lifestyle. A coding religion. A digital aphrodisiac.
 
----
-
-**Happy Coding, You Beautiful Debugging Machines! 🚀💖**
+**Cum... I mean, Code Hard! 🚀💦👨‍💻**
 
 ---
 
 # Bonus: Nuclear Options 💥
 
-## Remove All VS Code Extensions
+## Removing ALL Extensions (Scorched Earth Protocol)
 
 ```powershell
-# Scorched Earth Extension Removal
 $extensions = code --list-extensions
 foreach ($extension in $extensions) {
     code --uninstall-extension $extension
 }
 ```
 
-## Nuke All settings.json
+## Nuking All settings.json (Total Reset)
 
 ```powershell
-# Settings Annihilation Protocol
 $settingsPaths = @(
     "$env:APPDATA\Code\User\settings.json",
     "$env:HOME\AppData\Roaming\Code\User\settings.json",
@@ -173,9 +168,11 @@ $settingsPaths = @(
 foreach ($settingsPath in $settingsPaths) {
     if (Test-Path $settingsPath) {
         Remove-Item $settingsPath -Force
-        Write-Host "Obliterated settings.json from: $settingsPath"
+        Write-Host "Destroyed settings.json at: $settingsPath"
     }
 }
 ```
 
-**Caution: These scripts have no mercy. Use with the confidence of a developer who knows no fear!** 🔥👀
+---
+
+**Coding is not a job. It's a LIFESTYLE! 🤯🔥**
