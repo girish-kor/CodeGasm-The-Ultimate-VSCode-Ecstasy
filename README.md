@@ -13,22 +13,6 @@ Welcome to the most mind-blowing VSCode setup that will:
 - Make other developers weep with jealousy 😭
 - Potentially get you fired for being too awesome 💥
 
-## 🛠 Features That Will Make You Wet... With Excitement!
-
-- **Orgasmic Editor Settings** 
-- **Prettier Than Your Ex's Instagram** 
-- **Tailwind CSS That Slaps Harder Than Reality** 
-- **Animations Smoother Than a Butter Massage** 
-- **Code Runner That Sprints Faster Than Your Career** 
-- **Frameworks Supported Like a Wonder Bra** 
-- **Live Server That Never Ghosts You** 
-
-## 🔧 Prerequisites (aka Coding Foreplay)
-
-- Visual Studio Code (v1.50+ - No Virgins Allowed!)
-- Git (Because commitment is sexy)
-- NodeJS (Your digital testosterone)
-
 ## 📦 Installation Ritual
 
 ### 1. Clone Like You Mean It
