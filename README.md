@@ -4,7 +4,7 @@ Welcome to **CodeGasm** – the ultimate VSCode configuration that will take you
 
 ## 🚀 Preview Your Coding Pleasure
 
-![CodeGasm VSCode Setup](https://raw.githubusercontent.com/girish-kor/CodeGasm/refs/heads/main/assets/CodeGasm%20The%20Ultimate%20VSCode%20Ecstasy.png)
+![CodeGasm VSCode Setup]([https://raw.githubusercontent.com/girish-kor/CodeGasm/refs/heads/main/assets/CodeGasm%20The%20Ultimate%20VSCode%20Ecstasy.png](https://raw.githubusercontent.com/girish-kor/CodeGasm-The-Ultimate-VSCode-Ecstasy/refs/heads/main/assets/CodeGasm.png))
 *Placeholder for VSCode screen recording*
 
 ## 🛠 Features
