@@ -25,6 +25,8 @@ Welcome to **CodeGasm** – the ultimate VSCode configuration that will take you
 
 ### 🔧 **Installation Instructions**
 
+---
+
 #### 1. **Clone the Repository**
 
 Clone this repository to your local machine using Git:
@@ -33,6 +35,7 @@ Clone this repository to your local machine using Git:
 git clone https://github.com/yourusername/CodeGasm.git
 
 ```
+---
 
 ### 2. **Apply VSCode Settings**
 
@@ -40,6 +43,8 @@ git clone https://github.com/yourusername/CodeGasm.git
 - Mac/Linux: Open ~/.config/Code/User/settings.json
 
 Copy the contents of settings.json from this repository into your VSCode settings.json file
+
+---
 
 ### **💥 Extensions to Install**
 
@@ -96,6 +101,7 @@ code --install-extension usernamehw.errorlens
 code --install-extension wscats.html-snippets
 
 ```
+---
 
 ### **📄 How to Use:**
 
@@ -104,6 +110,7 @@ code --install-extension wscats.html-snippets
 - Update your VSCode settings.json with the settings provided in this repository.
 - Enjoy your optimized VSCode experience.
 
+---
 
 ### **🌟 Key Features Explained:**
 
@@ -129,10 +136,14 @@ Preview your HTML/CSS/JS files instantly in the browser without needing to refre
 7. Custom Styling with CSS
 You can customize VSCode’s UI even further with Custom CSS. Feel free to modify and personalize your experience.
 
+---
+
 ### **🌐 Custom Visuals & Themes**
 
 - Material Night Eighties and MaterialKit for a sleek, minimalistic aesthetic.
 - Custom icons from Symbols and enhanced text readability with ErrorLens.
+
+---
 
 ### **⚡ Example of Custom Snippets (HTML)**
 HTML snippets are included in this repository for faster coding. Here’s an example:
@@ -142,6 +153,7 @@ HTML snippets are included in this repository for faster coding. Here’s an exa
   "html": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"ie=edge\">\n    <title>${1:Document}</title>\n</head>\n<body>\n    ${2}\n</body>\n</html>"
 }
 ```
+---
 
 ### **⚠️ Important Notes:**
 
@@ -149,22 +161,30 @@ HTML snippets are included in this repository for faster coding. Here’s an exa
 - The Prettier, ESLint, and Tailwind CSS extensions require configuration and can be adjusted to suit your project requirements.
 - If you run into any issues with specific extensions (e.g., Custom CSS), refer to the extension documentation for troubleshooting.
 
+---
+
 ### **🎮 Final Thoughts**
 
 You’ve just unlocked the ultimate VSCode experience. With CodeGasm, every coding session will feel like a masterpiece in the making. Customize, code, and enjoy the ride. Let's code like never before.
+
+---
 
 ### **📝 License**
 
 MIT License - Free to use, modify, and share.
 
+---
+
 ### **🖼️ Visual Preview of the Ultimate Experience**
 
 Here’s a quick preview of what the CodeGasm VSCode theme will look like in action.
 
+---
 
 ### **🎥 Demo Video**
 
 Link to demo GIF/video showcasing the smoothness of the setup, code formatting, and animations
 
+---
 
 
