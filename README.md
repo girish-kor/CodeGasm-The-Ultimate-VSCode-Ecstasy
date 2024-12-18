@@ -110,5 +110,3 @@ CodeGasm isn't just a setup. It's a lifestyle. A coding religion. A digital aphr
 
 **Cum... I mean, Code Hard! 🚀💦👨‍💻**
 ---
-
-**Coding is not a job. It's a LIFESTYLE! 🤯🔥**
